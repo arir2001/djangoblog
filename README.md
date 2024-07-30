@@ -14,6 +14,7 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 
 To freeze pip3 : 
 `pip3 freeze --local > requirements.txt`
+`anna_user, AnnaMarie`
 
 A blue button should appear to click: _Make Public_,
 
