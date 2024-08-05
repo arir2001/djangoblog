@@ -27,8 +27,6 @@ class Post(models.Model):
         ordering = ["-created_on"]
 
 
-
-
 class Comment(models.Model):
     post = models.ForeignKey(
         Post, on_delete=models.CASCADE, 
@@ -41,8 +39,6 @@ class Comment(models.Model):
     body = models.TextField()
     approved = models.BooleanField(default=False)
     created_on = models.DateTimeField(auto_now_add=True)
-
-    challenge = models.FloatField(default=3.0)
     
 
     class Meta:
