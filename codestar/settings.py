@@ -29,7 +29,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 SECRET_KEY = 'django-insecure-!js%eie=^y1jhz$@k$4)-$^o716+#6j%g@jbe6hn)!w2s=mvi2'
 SECRET_KEY2 = os.environ.get('SECRET_KEY2')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'http://8000-arir2001-djangoblog-gnxcg9k6oev.ws-eu115.gitpod.io/', 
