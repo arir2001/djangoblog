@@ -16,9 +16,6 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     updated_on = models.DateTimeField(auto_now=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    field_2 = models.IntegerField(default=42)
-    field_3 = models.CharField(null =True)
-
 
     def __str__(self):
         return f"{self.title} | {self.author}"

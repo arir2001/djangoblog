@@ -5,7 +5,6 @@ from .models import Post
 from .models import Comment
 from django_summernote.admin import SummernoteModelAdmin
 
-# Register your models here.
 @admin.register(Post)
 
 class PostAdmin(SummernoteModelAdmin):
