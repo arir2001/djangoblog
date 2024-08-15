@@ -68,6 +68,13 @@
                 <span class="navbar-text text-muted">
                     adventures of a software developer
                 </span>
+                <p class ="text-end m-3">
+                    {% if user.is_authenticated %}
+                        <span> you are logged in as {{user}}</span> 
+                        {% else %}
+                        <span> you are not logged in </span> 
+                    {% endif %}
+                </p>
             </div>
         </div>
     </nav>
